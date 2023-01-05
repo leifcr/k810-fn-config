@@ -10,7 +10,7 @@ const k810Ids = {
   vendorId: 0x46d, // 1133 - Logitech
   productId: 0xb319, // 45849 - K810 keyboard device id
   usagePage: 0x01, // Generic Desktop page - see details in https://usb.org/document-library/hid-usage-tables-13
-  usage: 0x06, // Keyboard type
+  // usage: 0x06, // Keyboard type
 };
 
 /** A global var holding the K810 keyboard device that has been granted accesses */
